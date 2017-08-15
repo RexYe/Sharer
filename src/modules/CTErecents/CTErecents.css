@@ -1,0 +1,29 @@
+@import '~antd/dist/antd.css';
+.dateselector{
+  width: 140px;
+  display: inline-block;
+  border-right: 1px solid #ccc;
+}
+.ant-select-selection {
+  border-radius: 0;
+  border: 0;
+  background:#F4F5F9;
+  font-size: 14px;
+  width: 100px;
+  margin-top: 5px;
+  box-shadow: none !important;
+}
+.ant-calendar-picker-input {
+    margin-top: 5px;
+    border-radius: 0;
+    border: 0;
+    background:#F4F5F9;
+    font-size: 14px;
+    width: 230px;
+    cursor: pointer;
+    box-shadow: none;
+}
+.ant-select-lg .ant-select-selection--single{
+  width: 120px;
+  height: 32px;
+}
