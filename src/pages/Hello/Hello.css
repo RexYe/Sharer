@@ -1,0 +1,67 @@
+.index{
+  width: 100%;
+  padding-top: 5rem;
+}
+.index .index-block{
+  margin: 0 auto;
+  width: 100%;
+  height: 25rem;
+}
+.index .index-block img {
+  position: absolute;
+  top: 50px;
+  left: 20%;
+  width: 700px;
+  height: 400px;
+  z-index: 1;
+  opacity: 0.5;
+}
+@keyframes typing {
+	from {
+	width:0;
+}
+}@keyframes blink-caret {
+	50% {
+	border-color:transparent; /*背景透明*/
+}
+}
+.typing-text {
+  z-index: 100;
+  position: absolute;
+  left: 32%;
+  color: #294057;
+	font:bold 270% Consolas,Monaco,monospace;
+	border-right:.1em solid; /*光标大小*/
+	width:116.5em;
+  width:25ch;	/* 宽度 */
+	white-space: nowrap; /*文本不换行*/
+	overflow:hidden; /*内容溢出元素框外不可见*/
+	animation:typing 4.5s infinite steps(30,end) ,/*打字速度*/
+		        blink-caret .3s step-end infinite alternate; /*光标闪烁速率*/
+  animation-direction: alternate;/*偶数次时反向播放*/
+}
+.intro1{
+  width: 100%;
+  height: 600px;
+  background: #178e6f;
+}
+.intro2{
+  width: 100%;
+  height: 600px;
+}
+.intro3{
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+  width: 50px;
+  height: 30px;
+  z-index: 500;
+  cursor: pointer;
+}
+.intro3 img{
+  width: 27px;
+  height: 27px;
+}
+.intro3:hover{
+  opacity: 0.6;
+}
