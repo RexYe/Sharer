@@ -21,10 +21,14 @@
           </div>
           <li id="hot-keywords">热门关键词:</li>
           <li id="hot-nav"v-for="item in hotnav"><a href="">{{item.title}}</a></li>
+
       </div>
     </div>
     <div class="shop-content">
-      000
+      00
+    </div>
+    <div class="shop-car">
+      <router-link to="/shopcar"><img src="../../img/shop-car.png" alt=""></router-link>
     </div>
   </div>
 </template>

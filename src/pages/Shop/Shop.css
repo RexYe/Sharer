@@ -62,3 +62,12 @@
   top: 27px;
   height: 600px;
 }
+.shop-car{
+  position: absolute;
+  right: 40px;
+  top: 150px;
+}
+.shop-car img{
+  width: 50px;
+  height: 50px;
+}

@@ -2,10 +2,10 @@
   position: fixed;
   width: 100%;
   height: 3.4rem;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.9);
   line-height: 3.4rem;
   z-index: 1000;
-  box-shadow: 0 3px 10px 1px #f0f0f0;
+  box-shadow: 0 3px 10px 1px #123723;
 }
 .nav-top-container{
   padding: 0 13%;
@@ -59,9 +59,11 @@
   width: 7rem;
   transition: width 0.7s;
   color:#294057;
+  border: 0.1px solid #cfcfcf;
 }
 .search-div input:focus{
   width: 12rem;
+  border: 0.2px solid #b9b9b9;
 }
 .search-div img{
   position: relative;

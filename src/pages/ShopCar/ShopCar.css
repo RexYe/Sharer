@@ -1,0 +1,31 @@
+.shopcar{
+  padding-top: 100px;
+  width: 100%;
+  height: auto;
+}
+.shopcar h1{
+  font-size: 2rem;
+  text-align: center;
+  color: #294057;
+}
+.shopcar .shopcar-container{
+  padding: 0 13%;
+}
+.shopcar .shopcar-th{
+  height: 50px;
+  background: #294057;
+  list-style: none;
+  line-height: 50px;
+}
+.shopcar .shopcar-th li{
+    color: white;
+    display: inline-block;
+    padding: 0 7%;
+}
+.shopcar .shopcar-tc {
+  background-color: #f5f5f5;
+  border: 0.1px solid #b5b5b5;
+}
+.shopcar .shopcar-tc .shop-info{
+    display: inline-block;
+}
