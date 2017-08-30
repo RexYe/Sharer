@@ -1,5 +1,5 @@
 Arguments: 
-  /opt/node-v6.11.1-linux-x64/bin/node /home/shawnye/bin/yarn run build
+  /opt/node-v6.11.1-linux-x64/bin/node /home/shawnye/bin/yarn start
 
 PATH: 
   /home/shawnye/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
@@ -22,9 +22,8 @@ npm manifest:
     "scripts": {
       "start": "cross-env NODE_ENV=development webpack-dev-server --open",
       "dev": "cross-env NODE_ENV=development webpack --config webpack.dev.config.js --progress --hide-modules",
-      /*"build": "cross-env NODE_ENV=production webpack --config webpack.prod.config.js --progress --hide-modules",*/
+      "build": "cross-env NODE_ENV=production webpack --config webpack.prod.config.js --progress --hide-modules",
       "build": "babel src -d lib",
-      "test": "jest"
     },
     "repository": {
       "type": "git",
@@ -44,6 +43,7 @@ npm manifest:
     "devDependencies": {
       "autoprefixer": "^7.1.1",
       "babel-core": "^6.23.1",
+       "babel-cli": "^6.0.0",
       "babel-loader": "^7.0.0",
       "babel-plugin-transform-runtime": "^6.23.0",
       "babel-polyfill": "^6.23.0",
@@ -5044,7 +5044,7 @@ Lockfile:
       window-size "0.1.0"
 
 Trace: 
-  SyntaxError: /home/shawnye/Sharer/test/Sharer/package.json: Unexpected token / in JSON at position 295
+  SyntaxError: /home/shawnye/Sharer/test/Sharer/package.json: Unexpected token } in JSON at position 438
       at Object.parse (native)
       at /opt/node-v6.11.1-linux-x64/lib/node_modules/yarn/lib/util/fs.js:554:57
       at next (native)

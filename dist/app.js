@@ -25,7 +25,7 @@ var formatRegExp = /%[sdj%]/g;
 var warning = exports.warning = function warning() {};
 
 // don't print warning message when in production env or node runtime
-if (false) {
+if ("development" !== 'production' && typeof window !== 'undefined' && typeof document !== 'undefined') {
   exports.warning = warning = function warning(type, errors) {
     if (typeof console !== 'undefined' && console.warn) {
       if (errors.every(function (e) {
@@ -41249,7 +41249,7 @@ exports.__esModule = true;
  */
 exports.default = {
   mounted: function mounted() {
-    if (true) return;
+    if (false) return;
     if (!this.$vnode) return;
 
     var _getMigratingConfig = this.getMigratingConfig(),

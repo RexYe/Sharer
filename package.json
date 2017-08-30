@@ -7,8 +7,7 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server --open",
     "dev": "cross-env NODE_ENV=development webpack --config webpack.dev.config.js --progress --hide-modules",
     "build": "cross-env NODE_ENV=production webpack --config webpack.prod.config.js --progress --hide-modules",
-    "build": "babel src -d lib",
-  
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",

@@ -382,7 +382,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
     }, [_vm._v(_vm._s(item.title))])])
   })], 2)]), _vm._v(" "), _c('div', {
     staticClass: "shop-content"
-  }, [_vm._v("\n    000\n  ")]), _vm._v(" "), _c('div', {
+  }, [_vm._v("\n    00\n  ")]), _vm._v(" "), _c('div', {
     staticClass: "shop-car"
   }, [_c('router-link', {
     attrs: {

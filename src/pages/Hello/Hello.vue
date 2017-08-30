@@ -57,14 +57,24 @@ export default {
 	},
 	mounted:function () {
 		const t = this;
-		setInterval(function changetop(){
+		window.onscroll = function(){
 			if(document.body.scrollTop>0){
 				t.iftopShow = true;
 			}
 			if(document.body.scrollTop==0){
 				t.iftopShow = false;
 			}
-		} ,900);
+			
+		}
+		// const t = this;
+		// setInterval(function changetop(){
+		// 	if(document.body.scrollTop>0){
+		// 		t.iftopShow = true;
+		// 	}
+		// 	if(document.body.scrollTop==0){
+		// 		t.iftopShow = false;
+		// 	}
+		// } ,900);
 	},
 }
 </script>
